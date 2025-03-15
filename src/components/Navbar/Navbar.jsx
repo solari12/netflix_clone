@@ -24,8 +24,11 @@ const Navbar = () => {
         <p>Children</p>
         <img src={bell_icon} alt="" className='icons'/>
         <div className="navbar-profile">
-        <img src={profile_img} alt="" className='icons'/>
-        <img src={caret_icon} alt="" className='icons'/>
+          <img src={profile_img} alt="" className='profile'/>
+          <img src={caret_icon} alt=""/>
+          <div className="dropdown">
+            <p>alskjdlajdlkjsd</p>
+          </div>
         </div>
       </div>
     </div>
